@@ -8,6 +8,9 @@ class ProfileController extends Controller
 {
     public function profile()
     {
-        return view('profile', ['name' => 'My name is Man']);
+        return view('profile', [
+            'name' => 'My name is Man',
+            'age' => 35,
+        ]);
     }
 }

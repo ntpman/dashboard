@@ -10,6 +10,7 @@
 
 <body>
     <strong>{{ $name }}</strong>
+    <p>{{ $age }}</p>
 </body>
 
 </html>
